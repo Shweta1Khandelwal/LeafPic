@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1F2EB"
+    tools:context="com.example.shweta.leafpic.MainActivity">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+    android:horizontalSpacing="4dp"
+
+
+        android:stretchMode="columnWidth"></GridView>
+        <!--android:verticalSpacing="10dp"-->
+        <!--android:horizontalSpacing="10dp"-->
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/text"
+    />
+<com.getbase.floatingactionbutton.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:id="@+id/fab"
+    android:layout_margin="20dp"
+    android:src="@drawable/sharethis40"
+    android:backgroundTint="@android:color/holo_blue_dark"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    />
+
+
+</RelativeLayout>
